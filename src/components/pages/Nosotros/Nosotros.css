@@ -1,0 +1,22 @@
+.generalText{
+    color: white;
+}
+
+.title-container{
+    margin-top: 5vh;
+    font-size: larger;
+}
+.wines{
+    position: fixed;
+    min-width: 100%;
+    overflow: hidden;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -1;
+}
+.textNosotros{
+    padding-bottom: 50px;
+    text-align: justify;
+}

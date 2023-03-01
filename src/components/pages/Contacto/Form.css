@@ -1,0 +1,14 @@
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.send-button{
+    background-color: black;
+}
+.send-button:hover{
+    background-color: green;
+}
+.send-button:active{
+    background-color: black;
+}

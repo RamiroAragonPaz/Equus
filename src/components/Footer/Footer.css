@@ -1,0 +1,12 @@
+
+.footer {
+    position: absolute;
+    
+    width: 100%;
+    background-color: black;
+}
+.img-logo{
+    background-color: transparent;
+    filter: invert(100%);
+    max-width: 70px;
+}

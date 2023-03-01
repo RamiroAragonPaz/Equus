@@ -1,0 +1,15 @@
+.toolBar{
+    background-color: black;
+}
+.buttons,.buttons:active, .buttons:link, .buttons:visited{
+    text-decoration: none;
+}
+.img-container{
+    display: flex;
+    justify-content: end;
+    background-color: black;
+}
+.logo{
+    filter: invert(100%);
+    max-width: 70px;
+}

@@ -1,0 +1,32 @@
+.wallpaper-container{
+    background-color: transparent;
+}
+
+.video{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    filter: brightness(60%); 
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.brand-container{
+    position: relative;
+}
+.wallpaper{
+    filter: invert(100%);
+    max-width: 500px;
+}
+.text-container{
+    position: absolute;
+    top: 180px;
+    left: 870px
+}
+.text{
+    color: white;
+    font-size: 80px;
+}

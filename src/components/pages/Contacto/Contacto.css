@@ -1,0 +1,16 @@
+.links-container {
+    display: flex;
+    align-items: center;
+ }
+ .link-a{
+    color: black;
+    text-decoration: none;
+ }
+ .link{
+    vertical-align: super;
+    margin-left: 10px;
+ }
+ .link-a:visited{
+    text-decoration: none;
+    color: black;
+ }
