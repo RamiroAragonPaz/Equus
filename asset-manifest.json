@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cd290680.css",
+    "main.js": "/static/js/main.661efad8.js",
+    "static/js/787.8af0d7c3.chunk.js": "/static/js/787.8af0d7c3.chunk.js",
+    "static/media/background.mp4": "/static/media/background.bda32afdc1b5c13039c0.mp4",
+    "static/media/bodega.jpg": "/static/media/bodega.acc0da8f6d59191ca425.jpg",
+    "static/media/wines2.jpg": "/static/media/wines2.573e6ec06b957dd192e1.jpg",
+    "static/media/equuscarga.png": "/static/media/equuscarga.3e9a1491d042e05b0bc8.png",
+    "static/media/Equus marca-04 (1).png": "/static/media/Equus marca-04 (1).b04414d34937922614c3.png",
+    "static/media/equus.svg": "/static/media/equus.7b7f47b611343f31c18f85d66caf2e84.svg",
+    "index.html": "/index.html",
+    "main.cd290680.css.map": "/static/css/main.cd290680.css.map",
+    "main.661efad8.js.map": "/static/js/main.661efad8.js.map",
+    "787.8af0d7c3.chunk.js.map": "/static/js/787.8af0d7c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd290680.css",
+    "static/js/main.661efad8.js"
+  ]
+}
