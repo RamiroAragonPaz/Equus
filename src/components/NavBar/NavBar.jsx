@@ -58,27 +58,27 @@ function ResponsiveAppBar() {
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
-                display: { xs: 'block', md: 'none', color: '#FFFFFF'},
+                display: { xs: 'block', md: 'none', color: '#202020'},
               }}
             >
                 <Link className='link-a' to={`/`}>
                 <MenuItem onClick={handleCloseNavMenu} >
-                  <Typography textAlign="center" className='link-a' sx={{color: '#FFFFFF'}}>Inicio</Typography>
+                  <Typography textAlign="center" className='link-a' sx={{color: '#202020'}}>Inicio</Typography>
                 </MenuItem> 
                 </Link>
                 <Link className='link-a' to={`/Nosotros`}>
                 <MenuItem onClick={handleCloseNavMenu} >
-                  <Typography textAlign="center" className='link-a' sx={{color: '#FFFFFF'}}>Nosotros</Typography>
+                  <Typography textAlign="center" className='link-a' sx={{color: '#202020'}}>Nosotros</Typography>
                 </MenuItem> 
                 </Link>
                 <Link className='link-a' to={`/Bodegas`}>
                 <MenuItem onClick={handleCloseNavMenu} >
-                  <Typography textAlign="center" className='link-a' sx={{color: '#FFFFFF'}}>Bodegas</Typography>
+                  <Typography textAlign="center" className='link-a' sx={{color: '#202020'}}>Bodegas</Typography>
                 </MenuItem> 
                 </Link>
                 <Link className='link-a' to={`/Contacto`}>
                 <MenuItem onClick={handleCloseNavMenu} >
-                  <Typography textAlign="center"  sx={{color: '#FFFFFF'}}>Contacto</Typography>
+                  <Typography textAlign="center"  sx={{color: '#202020'}}>Contacto</Typography>
                 </MenuItem> 
                 </Link>
             </Menu>
