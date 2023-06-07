@@ -32,7 +32,7 @@ function ResponsiveAppBar() {
     <AppBar position="static">
       <Container className='toolBar' maxWidth="xl">
         <Toolbar disableGutters >
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none', color: '#FFFFFF' } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -58,27 +58,27 @@ function ResponsiveAppBar() {
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
-                display: { xs: 'block', md: 'none' },
+                display: { xs: 'block', md: 'none', color: '#FFFFFF'},
               }}
             >
                 <Link className='link-a' to={`/`}>
                 <MenuItem onClick={handleCloseNavMenu} >
-                  <Typography textAlign="center" className='link-a' sx={{}}>Inicio</Typography>
+                  <Typography textAlign="center" className='link-a' sx={{color: '#FFFFFF'}}>Inicio</Typography>
                 </MenuItem> 
                 </Link>
                 <Link className='link-a' to={`/Nosotros`}>
                 <MenuItem onClick={handleCloseNavMenu} >
-                  <Typography textAlign="center" className='link-a' sx={{}}>Nosotros</Typography>
+                  <Typography textAlign="center" className='link-a' sx={{color: '#FFFFFF'}}>Nosotros</Typography>
                 </MenuItem> 
                 </Link>
                 <Link className='link-a' to={`/Bodegas`}>
                 <MenuItem onClick={handleCloseNavMenu} >
-                  <Typography textAlign="center" className='link-a' sx={{}}>Bodegas</Typography>
+                  <Typography textAlign="center" className='link-a' sx={{color: '#FFFFFF'}}>Bodegas</Typography>
                 </MenuItem> 
                 </Link>
                 <Link className='link-a' to={`/Contacto`}>
                 <MenuItem onClick={handleCloseNavMenu} >
-                  <Typography textAlign="center"  sx={{}}>Contacto</Typography>
+                  <Typography textAlign="center"  sx={{color: '#FFFFFF'}}>Contacto</Typography>
                 </MenuItem> 
                 </Link>
             </Menu>
@@ -95,7 +95,7 @@ function ResponsiveAppBar() {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: '#311B15',
               textDecoration: 'none',
             }}
           >
@@ -105,7 +105,7 @@ function ResponsiveAppBar() {
               <Link to={`/`} className="buttons">
                 <Button 
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block'}}
+                sx={{ my: 2, color: 'white', display: 'block', color: '#FFFFFF'}}
                 className="nosotros font-link"
               >
                 Inicio
@@ -114,7 +114,7 @@ function ResponsiveAppBar() {
               <Link to={`/Nosotros`} className="buttons">
                 <Button 
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block'}}
+                sx={{ my: 2, color: 'white', display: 'block', color: '#FFFFFF'}}
                 className="nosotros font-link"
               >
                 Nosotros
@@ -123,7 +123,7 @@ function ResponsiveAppBar() {
               <Link to={`/Bodegas`} className="buttons">
                 <Button
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block'}}
+                sx={{ my: 2, color: 'white', display: 'block', color: '#FFFFFF'}}
               >
                 Bodegas
               </Button>
@@ -131,7 +131,7 @@ function ResponsiveAppBar() {
               <Link to={`/Contacto`} className="buttons">
                 <Button
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block'}}
+                sx={{ my: 2, color: 'white', display: 'block', color: '#FFFFFF'}}
               >
                 Contacto
               </Button>

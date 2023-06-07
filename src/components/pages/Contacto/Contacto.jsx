@@ -4,7 +4,7 @@ import {useEffect, useState } from 'react';
 import Box from '@mui/material/Box';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import Form from './Form.js';
+import Form from './Form.jsx';
 
 
 

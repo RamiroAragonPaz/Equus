@@ -6,6 +6,7 @@ import Nosotros from './components/pages/Nosotros/Nosotros';
 import Bodegas from './components/pages/Bodegas/Bodegas';
 import Contacto from './components/pages/Contacto/Contacto';
 import Redes from './components/pages/Redes/Redes';
+import BodegaDetail from './components/pages/Bodegas/bodega/bodega'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path='/' element={< Main/>}/>
           <Route path="/Nosotros" element={<Nosotros />} />
           <Route path="/Bodegas" element={<Bodegas />} />
+          <Route path="/Bodegas/:id" element={<BodegaDetail />}/>
           <Route path="/Contacto" element={<Contacto />} />
           <Route path="/Redes" element={<Redes />} />
         </Routes>

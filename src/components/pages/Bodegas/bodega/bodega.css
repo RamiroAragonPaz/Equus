@@ -1,0 +1,85 @@
+.container-image {
+    height: calc(95vh - 20px);
+}
+.img-logo{
+    object-fit: cover;
+    margin-top: 5%;
+    max-width: 50%;
+}
+.img-background{
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    z-index: -100;
+    box-shadow: 00px 01px 10px 02px rgba(0, 0, 0, 0.694);
+}
+.container-text{
+    min-height: 200px;
+}
+.description-container{
+     display: flex;
+    justify-content: center;
+}
+.description{
+    font-family: 'Scheherazade New', serif;
+    margin-top: 50px;
+    font-style: oblique;
+    max-width: 60vw;
+    text-align: justify;
+    color: #DDBAA4;
+    padding: 10px;
+    font-size: 3.2vh;
+    border-radius: 10px;
+    
+}
+.grid-container{
+    display: flex;
+    justify-content: center;
+}
+.card-container{
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    top: 175%;
+    display: grid;
+    column-gap: 10%;;
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: center;
+}
+.cava{   
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 1;
+}
+.cava-title{
+    font-family: 'Scheherazade New', serif;   
+}
+.custom-card{
+    margin-bottom: 10%;
+    grid-row: 2;
+    border-radius: 1%;
+    box-shadow: 00px 0px 10px 3px black;
+    background-color: white;
+    color: black;
+    width: 20vw;
+    height: 50vh;
+    transition: all 0.2s linear;
+    transform: scale(1); 
+    overflow: hidden;  
+}
+.custom-card:hover{
+    transform: scale(1.05);
+    filter: brightness(20%); 
+}
+
+.img-wines{
+    object-fit: cover;
+    max-width: 20vw;
+    height: 30vh;
+}
+.card-text{
+    margin-top: 30px;
+}

@@ -1,13 +1,50 @@
+.form{
+    color: white;
+}
+.input {
+    width: 90%;
+    height: 30px;
+    background-color: whitesmoke;
+    padding: 1%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    border-style: none;
+}
+.input::placeholder {
+color:black;
+}
+textarea{
+font-family: Arial, Helvetica, sans-serif;
+}
+textarea::placeholder {
+color:black;
+font-family: Arial, Helvetica, sans-serif;
+}  
+.mensaje {
+    height: 100px;
+    text-align: start;
+}
 .button-container{
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
-.send-button{
+
+.send-button {
+    border-radius: 4px;
     background-color: black;
-}
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    margin-bottom: 2%;
+  }
+
 .send-button:hover{
-    background-color: green;
+    transition: 0.2s;
+    background-color: #BD7857;
 }
 .send-button:active{
     background-color: black;

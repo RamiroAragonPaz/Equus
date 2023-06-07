@@ -1,7 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-white: #FFFFFF;
+  --clr-black: #202020;
+  --clr-grey: #707070;
+  --clr-rose: #BD7857;
+  --clr-rose-2: #DDBAA4;
+  --clr-green: #4fb646;
+}
+
 .App {
   text-align: center;
-  
-  color: black;
+  color: #DDBAA4;
   height: 100%;
 }
 

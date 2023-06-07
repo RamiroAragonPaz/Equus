@@ -1,9 +1,10 @@
+
 .links-container {
     display: flex;
     align-items: center;
  }
  .link-a{
-    color: black;
+    color: white;
     text-decoration: none;
  }
  .link{
@@ -12,5 +13,5 @@
  }
  .link-a:visited{
     text-decoration: none;
-    color: black;
+    color: white;
  }
